@@ -1,0 +1,33 @@
+table{
+    width: 50%;
+    color: black ;
+    border-collapse: collapse;
+
+}
+
+/* th,td{
+    border-bottom: 1px solid black;
+}
+th{
+    font-weight: bold;
+    text-transform: uppercase ;
+    text-align: left;
+}
+td{
+    padding: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: left;
+} 
+tr:hover{
+    background: #989898; 
+}
+tr:nth-child(odd){
+    background: #989898;
+}
+*/
+
+table{
+    color: green !important;
+    /* adding this tag:"!important" adds format priority for stylesheet even thought you have bootstrap at the end that should be priority*/
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="site-header">
+    <div class="container content-centered">
+        <div class= "content-header">
+        <div class= "bar">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="logo"></a>
+            <nav class="menu">
+                <a href="media.html">Media</a>
+                <a href="About.html">About</a>
+                <a href="Blog.html">Blog</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+            <!-- <h1>We sell houses, apartments, condominiums and penthouses.</h1> -->
+        </div>
+    </div>
+    </header>
+
+    <h1 class="fw-300 text-center" >Contact</h1>
+    <img src="img/destacada3.jpg" alt="image">
+
+    <main class="container content-centered">
+        <h2 class="fw-300 text-center">Fill the next information</h2>
+
+        <form class="contact" action="#">
+            <fieldset>
+            <legend>Contact Information</legend>
+
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" placeholder="type your name">
+            <label for="email">Email:</label>
+            <input type="email"id="uemail" placeholder="type your email" required>
+            <label for="phone">Phone number:</label>
+            <!-- <input type="date" name="" id=""> -->
+            <input type="tel"id="phone" placeholder="Type your cellphone"required>
+            <label for="message ">Message</label>
+            <textarea name="message" id="umessage" cols="30" rows="10"></textarea>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Product Information
+            </legend>
+            <label for="options">Type</label>
+            <select name="options" id="type">
+            <option value=""disabled selected> ----Select an option---</option>
+            <option value="sell">Sell</option>
+            <option value="buy">Buy</option>
+        </select>
+        <label for="noProducts">Number</label>
+        <input type="number" min="0" max="100" step="5">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-contact">
+            <label for="phone">Phone:</label>
+            <input type="radio" name="phone" value="telephone" id="telephone">
+            <label for="radio">Email</label>
+            <input type="radio" name="email" value="email" id="email">
+        </div>
+        <p>
+            If you want to be contacted by phone, please select a day and hour:
+        </p>
+        <label for="date"></label>
+        <input type="date" name="date" id="aDate">
+        <label for="hour">Hour:</label>
+        <input type="time" name="hour" id="hour">
+        </fieldset>
+        <input class="button button-green" type="submit" value="Send">
+
+        </form>
+
+    </main>
+    <footer class="footer">
+        <a href="media.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact.html">Contact</a>
+    
+        <p>All the copyrights reserved 2020</p>
+    </footer>
+</body>
+</html>
